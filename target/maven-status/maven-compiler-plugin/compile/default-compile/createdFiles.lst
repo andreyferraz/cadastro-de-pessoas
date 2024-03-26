@@ -1,1 +1,4 @@
+com\sinerji\model\PessoaModel.class
+com\sinerji\model\EnderecoModel.class
 com\sinerji\Main.class
+com\sinerji\model\PessoaModel$Sexo.class
