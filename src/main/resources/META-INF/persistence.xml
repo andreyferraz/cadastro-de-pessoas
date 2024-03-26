@@ -2,6 +2,7 @@
     <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
     <class>com.example.Pessoa</class>
     <properties>
+        <jta-data-source>java:/MySqlDS</jta-data-source>
         <!-- Configurações de conexão para MySQL -->
         <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
         <property name="javax.persistence.jdbc.url" value="jdbc:mysql://sh-pro50.hostgator.com.br:3306/andrey78_sinerji2?useSSL=false&amp;serverTimezone=UTC"/>
