@@ -21,6 +21,15 @@
             <version>2.3</version>
         </dependency>
 
+        <!-- CDI -->
+<!-- https://mvnrepository.com/artifact/jakarta.enterprise/jakarta.enterprise.cdi-api -->
+<dependency>
+    <groupId>jakarta.enterprise</groupId>
+    <artifactId>jakarta.enterprise.cdi-api</artifactId>
+    <version>4.0.1</version>
+</dependency>
+
+
         <!-- PrimeFaces -->
         <dependency>
             <groupId>org.primefaces</groupId>
@@ -50,7 +59,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>com.sinerji.Main</mainClass> <!-- Substitua com o nome completo da sua classe principal -->
+                    <mainClass>com.sinerji.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>
